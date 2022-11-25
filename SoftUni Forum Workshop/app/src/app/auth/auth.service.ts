@@ -6,7 +6,11 @@ import { IUser } from '../shared/interfaces';
 })
 export class AuthService {
   
-  user: IUser | null = null;
+  user: IUser | null = {
+    username: 'Peter',
+    email: 'peter@gmail.com',
+    tel: '+3598888888'
+  } as any;
 
   get isLoggedIn() {
     return this.user !== null;
