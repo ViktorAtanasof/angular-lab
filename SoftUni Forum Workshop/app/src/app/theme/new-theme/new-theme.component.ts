@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-new-theme',
   templateUrl: './new-theme.component.html',
   styleUrls: ['./new-theme.component.css']
 })
-export class NewThemeComponent implements OnInit {
+export class NewThemeComponent {
 
   constructor() { }
 
-  ngOnInit(): void {
+  newThemeHandler(form: NgForm): void {
+    if(form.invalid) { return; }
   }
-
 }
