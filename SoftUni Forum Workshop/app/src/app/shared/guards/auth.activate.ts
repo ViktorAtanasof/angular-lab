@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { ActivatedRouteSnapshot, CanActivate, Router, RouterStateSnapshot, UrlTree } from "@angular/router";
-import { Observable } from "rxjs";
+import { map, Observable, take } from "rxjs";
 import { AuthService } from "src/app/auth/auth.service";
 
 @Injectable({
@@ -9,11 +9,18 @@ import { AuthService } from "src/app/auth/auth.service";
 
 export class AuthActivate implements CanActivate {
 
-    constructor(private authService: AuthService, private router: Router) {}
+    constructor(private authService: AuthService, private router: Router) { }
 
     canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean | UrlTree | Observable<boolean | UrlTree> | Promise<boolean | UrlTree> {
-        const loginRequired = route.data['loginRequired'];
-        if(loginRequired === undefined || this.authService.isLoggedIn === loginRequired) { return true; }
-        return this.router.createUrlTree(['/auth/login']);
+        return this.authService.user$.pipe(
+            take(1),
+            map(user => {
+                const loginRequired = route.data['loginRequired'];
+                if (loginRequired === undefined || !!user === loginRequired) { return true; }
+                return !! user ?
+                this.router.createUrlTree(['/theme/recent']):
+                this.router.createUrlTree(['/auth/login']);
+            })
+        )
     }
 }
