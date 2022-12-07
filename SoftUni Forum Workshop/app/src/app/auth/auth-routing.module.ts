@@ -6,7 +6,7 @@ import { ProfileComponent } from "./profile/profile.component";
 import { RegisterComponent } from "./register/register.component";
 
 const routes: Routes = [
-    {
+    {   
         path: 'auth',
         canActivate: [AuthActivate],
         children: [
