@@ -18,9 +18,11 @@ export class LoginComponent {
   
   loginHandler(form: NgForm): void {
     if(form.invalid) { return; }
-    this.authService.user = {
-      username: 'Peter'
-    } as any;
+    const { email, password} = form.value;
+    this.authService.login(email!, password!)
+    .subscribe(user => {
+      this.router.navigate(['/theme/recent']);
+    });
 
     this.router.navigate(['/']);
   }

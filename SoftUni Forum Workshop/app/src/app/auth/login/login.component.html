@@ -11,11 +11,10 @@
         class="input-error"
         ngModel
         required
-        [appEmail]="appEmailDomains"
-        type="email"
+        type="text"
         name="email"
         id="email"
-        placeholder="john.doe@gmail.com"
+        placeholder="john.doe"
       />
     </p>
     <ng-container *ngIf="emailInput.touched">
