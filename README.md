@@ -13,16 +13,16 @@ are studied (<strong>DI</strong>).
 
 # Course Overview
 
-- <a href="#ATS">Intro to Angular and TypeScript</a>
-- <a href="#COMPONENTS">Components</a> 
-- <a href="#DIRXJS">DI, Intro to RxJS, Services</a>
-- <a href="#MODULES">Modules and Routing</a>
-- <a href="#FORMS">Forms</a>
-- <a href="#PIPES">Pipes, Interceptors and Subjects</a>
-- <a href="#STATE">State Managment</a>
+- [Intro to Angular and TypeScript](#ANGULARTS)
+- <a href="#COMPONENTS">Components
+- <a href="#DIRXJS">DI, Intro to RxJS, Services
+- <a href="#MODULES">Modules and Routing
+- <a href="#FORMS">Forms
+- <a href="#PIPES">Pipes, Interceptors and Subjects
+- <a href="#STATE">State Managment
 
 
-## <p id="ATS">Intro to Angular and TypeScript</p>
+## <a name="#ANGULARTS">Intro to Angular and TypeScript</a>
 - HTTP Basics
 - Routing Overview
 - Angular Overview
