@@ -13,7 +13,7 @@ are studied (DI).
 
 # Course Overview
 
-- <a href="#INTROATS">Intro to Angular and TypeScript</a>
+- <a href="#ATS">Intro to Angular and TypeScript</a>
 - <a href="#COMPONENTS">Components</a> 
 - <a href="#DIRXJS">DI, Intro to RxJS, Services</a>
 - <a href="#MODULES">Modules and Routing</a>
@@ -22,7 +22,7 @@ are studied (DI).
 - <a href="#STATE">State Managment</a>
 
 
-## <p id="INTROATS">Intro to Angular and TypeScript</p>
+## <p id="ATS">Intro to Angular and TypeScript</p>
 - HTTP Basics
 - Routing Overview
 - Angular Overview
