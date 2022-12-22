@@ -19,10 +19,10 @@ are studied (<strong>DI</strong>).
 - <a href="#MODULES">Modules and Routing
 - <a href="#FORMS">Forms
 - <a href="#PIPES">Pipes, Interceptors and Subjects
-- <a href="#STATE">State Managment
+- [State Managment](#STATE)
 
 
-## <a name="#ANGULARTS">Intro to Angular and TypeScript</a>
+## <a name="#ANGULARTS"></a>Intro to Angular and TypeScript
 - HTTP Basics
 - Routing Overview
 - Angular Overview
@@ -61,6 +61,6 @@ are studied (<strong>DI</strong>).
 - Lazy Loading
 - Subjects
 
-## <p id="STATE">State Managment</p>
+## <a name="STATE"></a>State Managment
 - Introduction to Redux
 - NgRX Store (Store and App State, Actions, Reducers, Dispatching actions)
