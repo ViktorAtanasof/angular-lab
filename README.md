@@ -1,15 +1,15 @@
 # Angular course
 
 The "Angular" course provides knowledge and practical skills for 
-building client applications (Single Page Applications) with Angular technology, 
-a working framework created by Google and one of the most popular at the moment. 
-It teaches us what TypeScript is, basic syntax and concepts, and what else it doesn't offer
-over JavaScript, such as convenience for developing in the browser and on mobile platforms.
-Learn what Single Page Application (SPA) is, architectural patterns for SPA applications,
-components, directives and their implementation in Angular. Views and templates for data
+building client applications (<strong>Single Page Applications</strong>) with <a href="https://angular.io/"><strong>Angular</strong></a> technology, 
+a working framework created by <strong>Google</strong> and one of the most popular at the moment. 
+It offers knowledge about <a href="https://www.typescriptlang.org/"><strong>Typescript</strong></a> and its basic syntax and concepts, and what else it doesn't offer
+over <strong>JavaScript</strong>, such as convenience for developing in the browser and on mobile platforms.
+Learn what <strong>Single Page Application</strong> (<strong>SPA</strong>) is, architectural patterns for <strong>SPA</strong> applications,
+components, directives and their implementation in <a href="https://angular.io/"><strong>Angular</strong></a>. Views and templates for data
 visualization (templates), models, components, data binding, working with many views,
-observables, routing, extracting data from a REST service and injecting dependencies
-are studied (DI).
+observables, routing, extracting data from a <strong>REST</strong> service and injecting dependencies
+are studied (<strong>DI</strong>).
 
 # Course Overview
 
