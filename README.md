@@ -13,16 +13,16 @@ are studied (<strong>DI</strong>).
 
 # Course Overview
 
-- [Intro to Angular and TypeScript](#ANGULARTS)
-- <a href="#COMPONENTS">Components
-- <a href="#DIRXJS">DI, Intro to RxJS, Services
-- <a href="#MODULES">Modules and Routing
-- <a href="#FORMS">Forms
-- <a href="#PIPES">Pipes, Interceptors and Subjects
-- [State Managment](#STATE)
+- <a href="#INTROATS">Intro to Angular and TypeScript</a>
+- <a href="#COMPONENTS">Components</a> 
+- <a href="#DIRXJS">DI, Intro to RxJS, Services</a>
+- <a href="#MODULES">Modules and Routing</a>
+- <a href="#FORMS">Forms</a>
+- <a href="#PIPES">Pipes, Interceptors and Subjects</a>
+- <a href="#STATE">State Managment</a>
 
 
-## <a name="#ANGULARTS"></a>Intro to Angular and TypeScript
+## <p id="INTROATS">Intro to Angular and TypeScript</p>
 - HTTP Basics
 - Routing Overview
 - Angular Overview
@@ -61,6 +61,6 @@ are studied (<strong>DI</strong>).
 - Lazy Loading
 - Subjects
 
-## <a name="STATE"></a>State Managment
+## <p id="STATE">State Managment</p>
 - Introduction to Redux
 - NgRX Store (Store and App State, Actions, Reducers, Dispatching actions)
