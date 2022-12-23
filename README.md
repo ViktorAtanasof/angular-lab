@@ -13,16 +13,16 @@ are studied (<strong>DI</strong>).
 
 # Course Overview
 
-- <a href="#introATS">Intro to Angular and TypeScript</a>
+- <a href="#introats">Intro to Angular and TypeScript</a>
 - <a href="#components">Components</a> 
-- <a href="#DIRXJS">DI, Intro to RxJS, Services</a>
+- <a href="#dirxjs">DI, Intro to RxJS, Services</a>
 - <a href="#modules">Modules and Routing</a>
 - <a href="#forms">Forms</a>
 - <a href="#pipes">Pipes, Interceptors and Subjects</a>
 - <a href="#state">State Managment</a>
 
 
-## <p id="introATS">Intro to Angular and TypeScript</p>
+## <p id="introats">Intro to Angular and TypeScript</p>
 - HTTP Basics
 - Routing Overview
 - Angular Overview
@@ -37,7 +37,7 @@ are studied (<strong>DI</strong>).
 - Lifecycle Hooks
 - Component Interaction
 
-## <p id="DIRXJS">DI, Intro to RxJS, Services</p>
+## <p id="dirxjs">DI, Intro to RxJS, Services</p>
 - Change Detection Strategy
 - SOLID Principles
 - Services
