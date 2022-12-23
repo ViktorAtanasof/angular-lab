@@ -13,23 +13,23 @@ are studied (<strong>DI</strong>).
 
 # Course Overview
 
-- <a href="#INTROATS">Intro to Angular and TypeScript</a>
-- <a href="#COMPONENTS">Components</a> 
+- <a href="#introATS">Intro to Angular and TypeScript</a>
+- <a href="#components">Components</a> 
 - <a href="#DIRXJS">DI, Intro to RxJS, Services</a>
-- <a href="#MODULES">Modules and Routing</a>
-- <a href="#FORMS">Forms</a>
-- <a href="#PIPES">Pipes, Interceptors and Subjects</a>
-- <a href="#STATE">State Managment</a>
+- <a href="#modules">Modules and Routing</a>
+- <a href="#forms">Forms</a>
+- <a href="#pipes">Pipes, Interceptors and Subjects</a>
+- <a href="#state">State Managment</a>
 
 
-## <p id="INTROATS">Intro to Angular and TypeScript</p>
+## <p id="introATS">Intro to Angular and TypeScript</p>
 - HTTP Basics
 - Routing Overview
 - Angular Overview
 - Intro to TypeSctipt
 - Angular Installation and CLI
 
-## <p id="COMPONENTS">Components</p>
+## <p id="components">Components</p>
 - Components Basic Idea
 - Creating Components
 - Bootstrapping and Models
@@ -44,23 +44,23 @@ are studied (<strong>DI</strong>).
 - Obserables and RXJS
 - HTTP Client
 
-## <p id="MODULES">Modules and Routing</p>
+## <p id="modules">Modules and Routing</p>
 - NgModule
 - Routing Overview
 - Router Module (Links, Redirects, Query Params)
 - Router Guards
 
-## <p id="FORMS">Forms</p>
+## <p id="forms">Forms</p>
 - Directives (Attribute, Structural, Building an Attribute)
 - Handling Forms (Template-Driven and Reactive Forms)
 
-## <p id="PIPES">Pipes, Interceptors and Subjects</p>
+## <p id="pipes">Pipes, Interceptors and Subjects</p>
 - Pipes
 - JWT Authentication
 - Interceptors
 - Lazy Loading
 - Subjects
 
-## <p id="STATE">State Managment</p>
+## <p id="state">State Managment</p>
 - Introduction to Redux
 - NgRX Store (Store and App State, Actions, Reducers, Dispatching actions)
