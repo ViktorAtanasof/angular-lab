@@ -1,3 +1,5 @@
+<div id="top"></div>
+
 # Angular course
 
 The "Angular" course provides knowledge and practical skills for 
@@ -64,3 +66,5 @@ are studied (<strong>DI</strong>).
 ## <p id="state">State Managment</p>
 - Introduction to Redux
 - NgRX Store (Store and App State, Actions, Reducers, Dispatching actions)
+
+(<a href="#top">back to top</a>)
